@@ -1,7 +1,7 @@
-class PStack {
-  #id;
+class PStack {    //Parent Stack = PStack
+  #id;            //private field
   constructor() {
-    this.#id = Math.floor(Math.random() * 100) + 1;
+    this.#id = Math.floor(Math.random() * 100) + 1; 
   }
 
   showId() {
